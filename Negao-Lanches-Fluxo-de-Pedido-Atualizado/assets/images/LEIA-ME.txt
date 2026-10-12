@@ -1,0 +1,1 @@
+As imagens locais utilizadas no index.html estão nesta pasta. Mantenha estes arquivos e seus nomes ao publicar.

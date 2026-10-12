@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 82" role="img" aria-labelledby="title desc">
+  <title id="title">Negão Lanches</title>
+  <desc id="desc">Símbolo original de hambúrguer em vermelho, marfim, verde e dourado ao lado do nome Negão Lanches.</desc>
+  <defs><linearGradient id="badge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef3348"/><stop offset="1" stop-color="#a30f24"/></linearGradient></defs>
+  <g transform="translate(3 4)">
+    <rect width="74" height="74" rx="23" fill="url(#badge)"/>
+    <path d="M16 31a21 17 0 0 1 42 0Z" fill="#fff6ec"/>
+    <g fill="#e5ab51"><ellipse cx="27" cy="20" rx="2" ry="1.2" transform="rotate(-25 27 20)"/><ellipse cx="37" cy="16" rx="2" ry="1.2"/><ellipse cx="47" cy="21" rx="2" ry="1.2" transform="rotate(25 47 21)"/><ellipse cx="33" cy="26" rx="1.8" ry="1.1"/></g>
+    <path d="M14 34h46l-4 7H18Z" fill="#83ad54"/>
+    <path d="M16 41h42l-4 6H20Z" fill="#ffc857"/>
+    <path d="M18 48h38l-3 7H21Z" fill="#4d281c"/>
+    <path d="M21 56h32a4 4 0 0 1-4 5H25a4 4 0 0 1-4-5Z" fill="#fff6ec"/>
+  </g>
+  <text x="91" y="38" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="900" letter-spacing="-.9" fill="#241b17">NEGÃO</text>
+  <text x="93" y="63" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" letter-spacing="5.2" fill="#c8192e">LANCHES</text>
+  <path d="M294 54h61" stroke="#c8192e" stroke-width="3" stroke-linecap="round"/><circle cx="348" cy="54" r="4" fill="#ffc857"/>
+</svg>

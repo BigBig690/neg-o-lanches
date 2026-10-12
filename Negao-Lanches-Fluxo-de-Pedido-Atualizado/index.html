@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211613">
+  <meta name="description" content="Confira o cardápio do Negão Lanches, escolha seu lanche e envie o pedido pelo WhatsApp.">
+  <title>Negão Lanches | Sabor de verdade</title>
+  <link rel="icon" href="assets/images/logo-negao-lanches-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Negão Lanches - início"><img src="assets/images/logo-negao-lanches-dark.svg" alt="Negão Lanches"></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">☰</button>
+      <nav class="nav" id="mainNav" aria-label="Navegação principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#como-pedir">Como pedir</a>
+      </nav>
+      <div class="header-actions"><a class="cart-link" href="carrinho.html" aria-label="Abrir carrinho"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L22 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span>Carrinho</span><span class="cart-count" data-cart-count>0</span></a></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">Cardápio online <span aria-hidden="true">·</span> Sabor na medida</p>
+          <h1>Fome de verdade? <span>Aqui tem.</span></h1>
+          <p>Do seu primeiro clique até a confirmação: encontre seus favoritos, personalize o pedido e combine os detalhes direto com a loja pelo WhatsApp.</p>
+          <div class="hero-actions"><a class="btn btn-primary btn-large" href="#cardapio">Explorar cardápio <span aria-hidden="true">→</span></a><a class="btn btn-outline btn-large" href="#como-pedir">Como pedir</a></div>
+          <div class="hero-highlights"><span><i></i> Pedido fácil</span><span><i></i> Sem cadastro</span><span><i></i> Confirmação direta</span></div>
+        </div>
+        <div class="hero-visual"><div class="hero-image-frame"><img class="hero-image" src="assets/images/hero-hamburguer.jpg" alt="Hambúrguer ilustrativo do Negão Lanches" fetchpriority="high"></div><div class="hero-note"><span class="hero-note-icon" aria-hidden="true">✓</span><span><strong>Seu pedido do seu jeito</strong><small>Escolha, revise e envie pelo WhatsApp</small></span></div></div>
+      </div>
+      <div class="hero-strip"><span>Hambúrgueres</span><span>Calabresa</span><span>Hot-dogs</span><span>Pizzas</span><span>Calzones</span><span>Bebidas</span></div>
+    </section>
+
+    <section class="section alt" id="cardapio">
+      <div class="container">
+        <div class="section-head catalog-heading"><div><p class="eyebrow">Feito para sua fome</p><h2>Escolha o seu próximo favorito.</h2><p>Explore o cardápio, veja os detalhes e monte seu pedido do seu jeito.</p></div><p class="results-count" id="resultCount" aria-live="polite">Carregando cardápio…</p></div>
+        <div class="catalog-toolbar"><div><label class="search-label" for="productSearch">O que você está procurando?</label><input class="search-input" id="productSearch" type="search" placeholder="Ex.: X-Salada, pizza, calabresa…" autocomplete="off"></div><p class="muted" style="margin:0;font-size:.83rem">Escolha um item para ver detalhes e adicionar ao carrinho.</p></div>
+        <div class="category-list" id="categoryList" aria-label="Filtrar cardápio por categoria"></div>
+        <div class="product-grid" id="productGrid"><p class="muted">Carregando produtos…</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="como-pedir">
+      <div class="container"><div class="section-head"><div><p class="eyebrow">Sem complicação</p><h2>Como pedir</h2><p>Você monta o pedido no site e confirma os detalhes com a equipe no WhatsApp.</p></div></div>
+        <div class="trust-row"><article class="trust-card"><div class="trust-icon">01</div><h3>Escolha seus itens</h3><p>Explore o cardápio e personalize os adicionais que quiser.</p></article><article class="trust-card"><div class="trust-icon">02</div><h3>Confira o carrinho</h3><p>Ajuste quantidades e confira os valores antes de continuar.</p></article><article class="trust-card"><div class="trust-icon">03</div><h3>Envie pelo WhatsApp</h3><p>Informe seus dados e envie o resumo para a loja confirmar o pedido.</p></article></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-inner"><div><img class="footer-logo" src="assets/images/logo-negao-lanches-dark.svg" alt="Negão Lanches"><p>Pedido online fácil, atendimento direto com a loja. Fotos ilustrativas; disponibilidade e entrega são confirmadas pelo WhatsApp.</p></div><div class="footer-contact"><a class="btn btn-light" href="carrinho.html">Abrir carrinho</a><a class="btn btn-outline" href="https://wa.me/5514996135661" target="_blank" rel="noopener noreferrer">Falar com a loja</a></div></div><div class="footer-bottom"><p>© 2026 Negão Lanches.</p><p>Pedidos e pagamento são confirmados diretamente com a loja.</p></div></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
